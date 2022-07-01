@@ -1,0 +1,26 @@
+{
+	"opc_server_url": "opc.tcp://147.139.132.238:62640/IntegrationObjects/ServerSimulator",
+	"opc_user":"opcuser",
+	"opc_password":"opcpassword",
+	"maximo_url": "http://147.139.132.238:9080/maximo/oslc/os/opcdata?lean=1",
+	"taglist_url" : "http://147.139.132.238:9080/maximo/oslc/os/OPCTAG?oslc.lean=1&oslc.where=spi:tag!=%22null%22&oslc.select=spi:tag",
+	"enable_maximo": true,
+	"headers_maximo": {
+		"Content-Type": "application/json",
+		"apikey":"8nmu3lb1bfm0bflugcqj08h48dc445tm5a8sq4bc",
+		"properties" : "*"
+	},
+	"siteid" : "TALHO",
+	"local_taglist" : true,
+	"taglist":
+	[
+		"ns=2;s=Tag11",
+        "ns=2;s=Tag12",
+        "ns=2;s=Tag13",
+        "ns=2;s=Tag14",
+        "ns=2;s=Tag15",
+        "ns=2;s=Tag19",
+        "ns=2;s=Tag20"
+	]
+	
+}
