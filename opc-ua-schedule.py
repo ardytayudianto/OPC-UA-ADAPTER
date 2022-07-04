@@ -52,6 +52,41 @@ async def readTag(taglist):
     print(opcDataList)
     return opcDataList
 
+def sendToMaximo(opcDataList,config):
+    print ("Send Tag to Maximo Start")
+    maximo_url = config['maximo_url']
+    enable_maximo = config["enable_maximo"]
+    headers_maximo = config['headers_maximo']
+    siteid = config['siteid']
+    batchtime = datetime.now()
+    batchtime = batchtime.strftime("%Y-%m-%dT%H:%M:%S")
+    count=0
+    for opcData in opcDataList:
+        count=count+1
+        name = opcData[0]
+        value = opcData[1]
+        batch = {   
+                    'type' : 'OPC',
+                    'batch' : batchtime        
+                }
+        ploadMaximo = {
+                        "description": str(batch),
+                        "tag": name,
+                        "datetime":batchtime,
+                        "value": value,
+                        "siteid":siteid
+                        }
+        if(enable_maximo):
+            try:
+                #Send to DEV
+                r = requests.post(maximo_url,data = json.dumps(ploadMaximo),headers=headers_maximo)
+                logger.info(str(count)+"#"+r.text)
+            except:
+                logger.info("Connection error")
+        else:
+            logger.info(ploadMaximo)
+    print ("Send Tag to Maximo End")
+
 #Set Logger
 path = os. getcwd()
 #print("Current path:" + path)
@@ -62,13 +97,5 @@ with open(path + '\\config.json') as config_file:
 
 #interval  = config["interval"]
 taglist = getTag(config)
-asyncio.run(readTag(taglist))
-'''   
-runjob(config,opcconfig,taglist)
-schedule.every(interval).minutes.do(runjob,config,opcconfig,taglist)
-#runjob(config)
-
-while True:
-    schedule.run_pending()
-    time.sleep(1)
-'''
+opcDataList = asyncio.run(readTag(taglist))
+sendToMaximo(opcDataList,config)
