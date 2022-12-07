@@ -1,0 +1,25 @@
+{
+	"opc_servername": "doosanopc",
+	"maximo_url": "http://147.139.132.238/maximo",
+	"headers_maximo": {
+		"Content-Type": "application/json",
+		"apikey":"nl7l9291h9mahsqaaqnftq142usindrj61e91fg7",
+		"properties" : "*"
+	},
+	"taglist" :[
+	
+"ns=2;s=P0BBF01GH001||XB48",
+"ns=2;s=P0BBF01GH003||XB48",
+"ns=2;s=P0BBF02GH001||XB48",
+"ns=2;s=P0BFN01GH001||XB48",
+"ns=2;s=P0BFN01GH002||XB48",
+"ns=2;s=P0BBF01GH001||XQ21",
+"ns=2;s=P0BBF01GH002||XQ21",
+"ns=2;s=P0BBF02GH001||XQ21",
+"ns=2;s=P0BBF02GH002||XQ21",
+"ns=2;s=P0BFN01GH001||XQ21",
+"ns=2;s=P0BFN01GH001||XQ01",
+"ns=2;s=P0BFN02GH001||XQ21",
+"ns=2;s=P0BFN02GH001||XQ01"
+]
+}

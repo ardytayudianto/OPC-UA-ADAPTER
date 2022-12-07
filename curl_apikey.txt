@@ -1,0 +1,1 @@
+curl -d '{"expiration": -1, "userid":"MXINTADM"}' -H "Content-Type: application/json" -X POST http://opc.talian.co/maximo/oslc/apitoken/create?_lid=maxadmin&_lpwd=Jakarta12345

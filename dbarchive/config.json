@@ -1,0 +1,10 @@
+{
+	"opc_servername": "doosanopc",
+	"maximo_url": "http://opc.talian.co/maximo",
+	"headers_maximo": {
+		"Content-Type": "application/json",
+		"apikey":"nl7l9291h9mahsqaaqnftq142usindrj61e91fg7",
+		"properties" : "*"
+	},
+	"datakeepdays":3
+}

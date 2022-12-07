@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay__where_25_0</property>
+            <property name="value">1=1</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_936_1</property>
+            <property name="value">assetnum_936</property>
+        </structure>
+        <structure>
+            <property name="name">assetnum_936_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__siteid_937_2</property>
+            <property name="value">TALHO</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__StartDate_1152_3</property>
+            <property name="value">2022-07-27</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__EndDate_1153_4</property>
+            <property name="value">2022-07-29</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_1161_5</property>
+            <property name="value">meter_1161</property>
+        </structure>
+        <structure>
+            <property name="name">meter_1161_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">EndDate_1153_6</property>
+            <property name="value">2022-07-29</property>
+        </structure>
+        <structure>
+            <property name="name">EndDate_1153_type_</property>
+            <property name="value">date</property>
+        </structure>
+        <structure>
+            <property name="name">StartDate_1152_7</property>
+            <property name="value">2022-01-27</property>
+        </structure>
+        <structure>
+            <property name="name">StartDate_1152_type_</property>
+            <property name="value">date</property>
+        </structure>
+        <structure>
+            <property name="name">siteid_937_8</property>
+            <property name="value">TALHO</property>
+        </structure>
+        <structure>
+            <property name="name">siteid_937_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">where_25_9</property>
+            <property name="value">1=1</property>
+        </structure>
+        <structure>
+            <property name="name">where_25_type_</property>
+            <property name="value">string</property>
+        </structure>
+    </list-property>
+</report>

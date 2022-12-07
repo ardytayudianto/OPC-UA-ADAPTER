@@ -1,0 +1,15 @@
+{
+	"opc_server_url": "opc.tcp://147.139.132.238:62640/IntegrationObjects/ServerSimulator",
+	"opc_user":"opcuser",
+	"opc_password":"opcpassword",
+	"maximo_url": "http://147.139.132.238:9080/maximo/oslc/os/opcdata?lean=1",
+	"taglist_url" : "http://147.139.132.238:9080/maximo/oslc/os/OPCSERVER?lean=1&where=servername=%22opcuasimulator%22&oslc.select=*",
+	"enable_maximo": true,
+	"headers_maximo": {
+		"Content-Type": "application/json",
+		"apikey":"8nmu3lb1bfm0bflugcqj08h48dc445tm5a8sq4bc",
+		"properties" : "*"
+	},
+	"use_authentication": false,
+	"local_taglist" : false
+}

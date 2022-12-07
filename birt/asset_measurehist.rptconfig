@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
+    <list-property name="configVars">
+        <structure>
+            <property name="name">__isdisplay__where_25_0</property>
+            <property name="value">1=1</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_731_1</property>
+            <property name="value">appname_731</property>
+        </structure>
+        <structure>
+            <property name="name">appname_731_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_935_2</property>
+            <property name="value">location_935</property>
+        </structure>
+        <structure>
+            <property name="name">location_935_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_936_3</property>
+            <property name="value">assetnum_936</property>
+        </structure>
+        <structure>
+            <property name="name">assetnum_936_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isdisplay__siteid_937_4</property>
+            <property name="value">TALHO</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_940_5</property>
+            <property name="value">assettype_940</property>
+        </structure>
+        <structure>
+            <property name="name">assettype_940_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">__isnull_942_6</property>
+            <property name="value">hasmoved_942</property>
+        </structure>
+        <structure>
+            <property name="name">hasmoved_942_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">siteid_937_7</property>
+            <property name="value">TALHO</property>
+        </structure>
+        <structure>
+            <property name="name">siteid_937_type_</property>
+            <property name="value">string</property>
+        </structure>
+        <structure>
+            <property name="name">where_25_8</property>
+            <property name="value">1=1</property>
+        </structure>
+        <structure>
+            <property name="name">where_25_type_</property>
+            <property name="value">string</property>
+        </structure>
+    </list-property>
+</report>
